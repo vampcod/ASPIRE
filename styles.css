@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4B0082;
+    color: white;
+    text-align: center;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.courses {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.courses h2 {
+    text-align: center;
+    color: #4B0082;
+}
+
+.course {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.course h3 {
+    margin: 10px 0;
+}
+
+.course a {
+    text-decoration: none;
+    color: #0000FF;
+}
+
+.details {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details h2 {
+    text-align: center;
+    color: #4B0082;
+}
+
+.details p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.enroll-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #0000FF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-media {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.social-media h2 {
+    color: #4B0082;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #0000FF;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4B0082;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .course, .details, .social-media {
+        margin:
